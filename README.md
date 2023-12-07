@@ -1,5 +1,8 @@
 # TarefaFinalPOO - Hash Toy Game
 
+Disciplina: PRG22107 - PROGRAMAÇÃO ORIENTADA A OBJETOS <br>
+Professor: [@profmarcondes](https://github.com/profmarcondes)
+
 ![Jogo](https://a-static.mlcdn.com.br/800x560/jogo-educativo-da-velha-hash-toy-divertido-raciocinio-logico-paki-toys/universotoys/1204/ccb4ce9fb471589d8a1ee94220f56426.jpeg)
 
 Um jogo divertido e inteligente, onde quem tiver maior capacidade de observação e raciocínio vence.
