@@ -15,6 +15,7 @@ public:
     void habilita_peca();
     void desabilita_peca();
     void limpa_peca();
+    void atualiza_peca(int, int);
     ~Peca();
 };
 

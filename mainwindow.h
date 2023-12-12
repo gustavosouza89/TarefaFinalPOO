@@ -2,9 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "peca.h"
-#include "jogador.h"
-#include "tabuleiro.h"
 #include "game.h"
 
 QT_BEGIN_NAMESPACE
@@ -20,11 +17,6 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-    void libera_tabuleiro();
-    void bloqueia_tabuleiro();
-    void libera_jogador1();
-    void libera_jogador2();
-    void verifica_se_ganou();
 
 private slots:
 //    void on_pushButton_clicked();
@@ -49,14 +41,15 @@ private slots:
     void on_btn_Jogo31_clicked();
     void on_btn_Jogo32_clicked();
     void on_btn_Jogo33_clicked();    
-    void on_btn_NovoJogo_clicked();
-    void novo_jogo();
+/*    void on_btn_NovoJogo_clicked();
+    void novo_jogo();*/
 
 private:
     Ui::MainWindow *ui;
     Game _game;
     int _jogador = 0;
     int _pecas_jogo = 0;
+    int _tab_posicao = 0;
     int _tabuleiro[3][3] = {{0,0,0},{0,0,0},{0,0,0}};
     int pecas_jogodor1[3] = {11,12,13};
     int pecas_jogodor2[3] = {21,22,23};

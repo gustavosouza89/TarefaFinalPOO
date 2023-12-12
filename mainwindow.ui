@@ -105,103 +105,12 @@
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_Peca11">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>200</y>
-      <width>30</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_Peca12">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>200</y>
-      <width>30</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_Peca13">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>300</y>
-      <width>30</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_Peca14">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>300</y>
-      <width>30</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_Peca15">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>400</y>
-      <width>30</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_Peca16">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>400</y>
-      <width>30</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QPushButton" name="btn_Peca26">
     <property name="geometry">
      <rect>
       <x>710</x>
       <y>400</y>
       <width>50</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_Peca24">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>300</y>
-      <width>30</width>
       <height>50</height>
      </rect>
     </property>
@@ -235,19 +144,6 @@
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_Peca26">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>400</y>
-      <width>30</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QPushButton" name="btn_Peca24">
     <property name="geometry">
      <rect>
@@ -261,64 +157,12 @@
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_Peca25">
-    <property name="geometry">
-     <rect>
-      <x>610</x>
-      <y>400</y>
-      <width>30</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_Peca22">
-    <property name="geometry">
-     <rect>
-      <x>710</x>
-      <y>200</y>
-      <width>30</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_Peca23">
-    <property name="geometry">
-     <rect>
-      <x>610</x>
-      <y>300</y>
-      <width>30</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QPushButton" name="btn_Peca25">
     <property name="geometry">
      <rect>
       <x>610</x>
       <y>400</y>
       <width>50</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_Peca21">
-    <property name="geometry">
-     <rect>
-      <x>610</x>
-      <y>200</y>
-      <width>30</width>
       <height>50</height>
      </rect>
     </property>
@@ -391,64 +235,12 @@
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_Jogo22">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>300</y>
-      <width>30</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_Jogo21">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>300</y>
-      <width>30</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QPushButton" name="btn_Jogo21">
     <property name="geometry">
      <rect>
       <x>260</x>
       <y>300</y>
       <width>50</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_Jogo32">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>400</y>
-      <width>30</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_Jogo31">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>400</y>
-      <width>30</width>
       <height>50</height>
      </rect>
     </property>
@@ -495,19 +287,6 @@
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_Jogo12">
-    <property name="geometry">
-     <rect>
-      <x>360</x>
-      <y>200</y>
-      <width>30</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QPushButton" name="btn_Jogo32">
     <property name="geometry">
      <rect>
@@ -521,64 +300,12 @@
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_Jogo11">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>200</y>
-      <width>30</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QPushButton" name="btn_Jogo13">
     <property name="geometry">
      <rect>
       <x>460</x>
       <y>200</y>
       <width>50</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_Jogo13">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>200</y>
-      <width>30</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_Jogo33">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>400</y>
-      <width>30</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_Jogo23">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>300</y>
-      <width>30</width>
       <height>50</height>
      </rect>
     </property>
@@ -638,39 +365,18 @@
    <zorder>btn_Peca15</zorder>
    <zorder>btn_Peca16</zorder>
    <zorder>btn_Peca12</zorder>
-   <zorder>label_Peca12</zorder>
-   <zorder>label_Peca13</zorder>
-   <zorder>label_Peca14</zorder>
-   <zorder>label_Peca15</zorder>
-   <zorder>label_Peca16</zorder>
-   <zorder>label_Peca11</zorder>
    <zorder>btn_Peca26</zorder>
    <zorder>btn_Peca21</zorder>
    <zorder>btn_Peca22</zorder>
-   <zorder>label_Peca26</zorder>
    <zorder>btn_Peca24</zorder>
-   <zorder>label_Peca22</zorder>
    <zorder>btn_Peca25</zorder>
-   <zorder>label_Peca21</zorder>
    <zorder>btn_Peca23</zorder>
-   <zorder>label_Peca25</zorder>
-   <zorder>label_Peca24</zorder>
-   <zorder>label_Peca23</zorder>
    <zorder>label_Jogador1</zorder>
    <zorder>label_Jogador2</zorder>
    <zorder>btn_Jogo22</zorder>
-   <zorder>label_Jogo22</zorder>
-   <zorder>label_Jogo21</zorder>
-   <zorder>label_Jogo32</zorder>
-   <zorder>label_Jogo31</zorder>
    <zorder>btn_Jogo12</zorder>
    <zorder>btn_Jogo11</zorder>
-   <zorder>label_Jogo12</zorder>
-   <zorder>label_Jogo11</zorder>
    <zorder>btn_Jogo13</zorder>
-   <zorder>label_Jogo13</zorder>
-   <zorder>label_Jogo33</zorder>
-   <zorder>label_Jogo23</zorder>
    <zorder>btn_NovoJogo</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
