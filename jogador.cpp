@@ -1,11 +1,14 @@
 #include "jogador.h"
 
+Jogador::Jogador(){}
+
+
 /*
  * int player = 1 (player 01)
  *              2 (player 02)
  * */
 
-Jogador::Jogador(Ui::MainWindow *ui, int player){
+void Jogador::inicia_Jogador(Ui::MainWindow *ui, int player){
     Peca peca1;
     Peca peca2;
     Peca peca3;

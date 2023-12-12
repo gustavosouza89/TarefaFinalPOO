@@ -5,6 +5,7 @@
 #include "peca.h"
 #include "jogador.h"
 #include "tabuleiro.h"
+#include "game.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -53,6 +54,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    Game _game;
     int _jogador = 0;
     int _pecas_jogo = 0;
     int _tabuleiro[3][3] = {{0,0,0},{0,0,0},{0,0,0}};

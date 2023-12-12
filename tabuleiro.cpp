@@ -1,6 +1,8 @@
 #include "tabuleiro.h"
 
-Tabuleiro::Tabuleiro(Ui::MainWindow *ui){
+Tabuleiro::Tabuleiro(){}
+
+void Tabuleiro::inicia_Tabuleiro(Ui::MainWindow *ui){
     Peca peca1;
     Peca peca2;
     Peca peca3;
@@ -10,7 +12,7 @@ Tabuleiro::Tabuleiro(Ui::MainWindow *ui){
     Peca peca7;
     Peca peca8;
     Peca peca9;
-    _label = ui->label_Jogador1;
+    _label = ui->label_Tabuleiro;
     QPixmap img_tabuleiro("C:/Users/gu049152/Documents/CODE/IFSC/ProjetoFinal/Imagens/Jogo.png");
     _label->setPixmap(img_tabuleiro);
     peca1.inicia_peca(ui->btn_Jogo11, 0, 1);

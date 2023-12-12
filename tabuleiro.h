@@ -12,7 +12,8 @@ private:
     Peca *_peca1, *_peca2, *_peca3, *_peca4, *_peca5, *_peca6, *_peca7, *_peca8, *_peca9;
     QLabel * _label;
 public:
-    Tabuleiro(Ui::MainWindow *);
+    Tabuleiro();
+    void inicia_Tabuleiro(Ui::MainWindow *);
     void ativa_label();
     void desativa_label();
 };

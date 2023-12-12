@@ -8,11 +8,10 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    Jogador player01(ui, 1);
-    Jogador player02(ui, 2);
-    Tabuleiro tab(ui);
-    //QPixmap tabuleiro("C:/Users/gu049152/Documents/CODE/IFSC/ProjetoFinal/Imagens/Jogo.png");
-    //ui->label_Tabuleiro->setPixmap(tabuleiro);
+    _game.inicia_Game(ui);
+    //Jogador player01(ui, 1);
+    //Jogador player02(ui, 2);
+    //Tabuleiro tab(ui);
     bloqueia_tabuleiro();
     libera_jogador1();
 }
