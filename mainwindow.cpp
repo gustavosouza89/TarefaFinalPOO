@@ -3,12 +3,25 @@
 #include <QPixmap>
 
 
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    QPixmap peca11("C:/Users/gu049152/Documents/CODE/IFSC/ProjetoFinal/Imagens/Peca11.png");
+    Peca peca11(ui->btn_Peca11, 1, 1);
+    Peca peca12(ui->btn_Peca12, 1, 1);
+    Peca peca13(ui->btn_Peca13, 1, 2);
+    Peca peca14(ui->btn_Peca14, 1, 2);
+    Peca peca15(ui->btn_Peca15, 1, 3);
+    Peca peca16(ui->btn_Peca16, 1, 3);
+    Peca peca21(ui->btn_Peca21, 2, 1);
+    Peca peca22(ui->btn_Peca22, 2, 1);
+    Peca peca23(ui->btn_Peca23, 2, 2);
+    Peca peca24(ui->btn_Peca24, 2, 2);
+    Peca peca25(ui->btn_Peca25, 2, 3);
+    Peca peca26(ui->btn_Peca26, 2, 3);
+    /*QPixmap peca11("C:/Users/gu049152/Documents/CODE/IFSC/ProjetoFinal/Imagens/Peca11.png");
     QPixmap peca12("C:/Users/gu049152/Documents/CODE/IFSC/ProjetoFinal/Imagens/Peca12.png");
     QPixmap peca13("C:/Users/gu049152/Documents/CODE/IFSC/ProjetoFinal/Imagens/Peca13.png");
     QPixmap peca21("C:/Users/gu049152/Documents/CODE/IFSC/ProjetoFinal/Imagens/Peca21.png");
@@ -29,7 +42,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->label_Peca26->setPixmap(peca23);
     ui->label_Tabuleiro->setPixmap(tabuleiro);
     bloqueia_tabuleiro();
-    libera_jogador1();
+    libera_jogador1();*/
 }
 
 
