@@ -12,12 +12,14 @@ SOURCES += \
     jogador.cpp \
     main.cpp \
     mainwindow.cpp \
-    peca.cpp
+    peca.cpp \
+    tabuleiro.cpp
 
 HEADERS += \
     jogador.h \
     mainwindow.h \
-    peca.h
+    peca.h \
+    tabuleiro.h
 
 FORMS += \
     mainwindow.ui

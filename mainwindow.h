@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include "peca.h"
 #include "jogador.h"
+#include "tabuleiro.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {

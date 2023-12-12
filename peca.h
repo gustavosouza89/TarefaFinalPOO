@@ -1,9 +1,6 @@
 #ifndef PECA_H
 #define PECA_H
 
-#include <QMainWindow>
-#include <QObject>
-#include <QWidget>
 #include <QPushButton>
 #include <QPixmap>
 
