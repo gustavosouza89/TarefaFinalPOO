@@ -14,7 +14,11 @@ private:
     QPushButton * peca_button;
 public:
     Peca();
-    Peca(QPushButton *, int, int);
+    void inicia_peca(QPushButton *, int, int);
+    void habilita_peca();
+    void desabilita_peca();
+    void limpa_peca();
+    ~Peca();
 };
 
 #endif // PECA_H

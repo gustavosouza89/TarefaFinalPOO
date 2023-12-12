@@ -1,7 +1,11 @@
 #include "peca.h"
 
-Peca::Peca() {}
+Peca::Peca(){}
 
+
+Peca::~Peca(){
+
+}
 /*
  * int tipo =   0 (tabuleiro)
  *              1 (jogador 1)
@@ -11,7 +15,7 @@ Peca::Peca() {}
  *                  3 (peça maior)
  * */
 
-Peca::Peca(QPushButton * bt, int tipo, int tamanho){
+void Peca::inicia_peca(QPushButton * bt, int tipo, int tamanho){
     peca_button = bt;
     QString caminho;
     if(tipo == 0);
@@ -35,4 +39,14 @@ Peca::Peca(QPushButton * bt, int tipo, int tamanho){
     }
     QPixmap peca_icon(caminho);
     bt->setIcon(peca_icon);
+}
+
+void Peca::habilita_peca(){
+    peca_button->setDisabled(false);
+}
+void Peca::desabilita_peca(){
+    peca_button->setDisabled(true);
+}
+void Peca::limpa_peca(){
+    peca_button->setIcon(QIcon());
 }

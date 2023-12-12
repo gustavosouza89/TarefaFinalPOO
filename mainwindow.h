@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "peca.h"
+#include "jogador.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {

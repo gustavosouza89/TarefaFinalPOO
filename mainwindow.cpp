@@ -3,46 +3,17 @@
 #include <QPixmap>
 
 
-
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    Peca peca11(ui->btn_Peca11, 1, 1);
-    Peca peca12(ui->btn_Peca12, 1, 1);
-    Peca peca13(ui->btn_Peca13, 1, 2);
-    Peca peca14(ui->btn_Peca14, 1, 2);
-    Peca peca15(ui->btn_Peca15, 1, 3);
-    Peca peca16(ui->btn_Peca16, 1, 3);
-    Peca peca21(ui->btn_Peca21, 2, 1);
-    Peca peca22(ui->btn_Peca22, 2, 1);
-    Peca peca23(ui->btn_Peca23, 2, 2);
-    Peca peca24(ui->btn_Peca24, 2, 2);
-    Peca peca25(ui->btn_Peca25, 2, 3);
-    Peca peca26(ui->btn_Peca26, 2, 3);
-    /*QPixmap peca11("C:/Users/gu049152/Documents/CODE/IFSC/ProjetoFinal/Imagens/Peca11.png");
-    QPixmap peca12("C:/Users/gu049152/Documents/CODE/IFSC/ProjetoFinal/Imagens/Peca12.png");
-    QPixmap peca13("C:/Users/gu049152/Documents/CODE/IFSC/ProjetoFinal/Imagens/Peca13.png");
-    QPixmap peca21("C:/Users/gu049152/Documents/CODE/IFSC/ProjetoFinal/Imagens/Peca21.png");
-    QPixmap peca22("C:/Users/gu049152/Documents/CODE/IFSC/ProjetoFinal/Imagens/Peca22.png");
-    QPixmap peca23("C:/Users/gu049152/Documents/CODE/IFSC/ProjetoFinal/Imagens/Peca23.png");
+    Jogador player01(ui, 1);
+    Jogador player02(ui, 2);
     QPixmap tabuleiro("C:/Users/gu049152/Documents/CODE/IFSC/ProjetoFinal/Imagens/Jogo.png");
-    ui->label_Peca11->setPixmap(peca11);
-    ui->label_Peca12->setPixmap(peca11);
-    ui->label_Peca13->setPixmap(peca12);
-    ui->label_Peca14->setPixmap(peca12);
-    ui->label_Peca15->setPixmap(peca13);
-    ui->label_Peca16->setPixmap(peca13);
-    ui->label_Peca21->setPixmap(peca21);
-    ui->label_Peca22->setPixmap(peca21);
-    ui->label_Peca23->setPixmap(peca22);
-    ui->label_Peca24->setPixmap(peca22);
-    ui->label_Peca25->setPixmap(peca23);
-    ui->label_Peca26->setPixmap(peca23);
     ui->label_Tabuleiro->setPixmap(tabuleiro);
     bloqueia_tabuleiro();
-    libera_jogador1();*/
+    libera_jogador1();
 }
 
 
@@ -127,7 +98,6 @@ void MainWindow::on_btn_Peca13_clicked()
     ui->statusbar->showMessage("Jogador: " + QString::number(_jogador) + " Peça: " + QString::number(_pecas_jogo));
 }
 
-
 void MainWindow::on_btn_Peca14_clicked()
 {
     ui->btn_Peca14->hide();
@@ -137,7 +107,6 @@ void MainWindow::on_btn_Peca14_clicked()
     libera_tabuleiro();
     ui->statusbar->showMessage("Jogador: " + QString::number(_jogador) + " Peça: " + QString::number(_pecas_jogo));
 }
-
 
 void MainWindow::on_btn_Peca15_clicked()
 {
@@ -149,7 +118,6 @@ void MainWindow::on_btn_Peca15_clicked()
     ui->statusbar->showMessage("Jogador: " + QString::number(_jogador) + " Peça: " + QString::number(_pecas_jogo));
 }
 
-
 void MainWindow::on_btn_Peca16_clicked()
 {
     ui->btn_Peca16->hide();
@@ -159,7 +127,6 @@ void MainWindow::on_btn_Peca16_clicked()
     libera_tabuleiro();
     ui->statusbar->showMessage("Jogador: " + QString::number(_jogador) + " Peça: " + QString::number(_pecas_jogo));
 }
-
 
 void MainWindow::on_btn_Peca21_clicked()
 {
@@ -171,7 +138,6 @@ void MainWindow::on_btn_Peca21_clicked()
     ui->statusbar->showMessage("Jogador: " + QString::number(_jogador) + " Peça: " + QString::number(_pecas_jogo));
 }
 
-
 void MainWindow::on_btn_Peca22_clicked()
 {
     ui->btn_Peca22->hide();
@@ -181,7 +147,6 @@ void MainWindow::on_btn_Peca22_clicked()
     libera_tabuleiro();
     ui->statusbar->showMessage("Jogador: " + QString::number(_jogador) + " Peça: " + QString::number(_pecas_jogo));
 }
-
 
 void MainWindow::on_btn_Peca23_clicked()
 {
@@ -193,7 +158,6 @@ void MainWindow::on_btn_Peca23_clicked()
     ui->statusbar->showMessage("Jogador: " + QString::number(_jogador) + " Peça: " + QString::number(_pecas_jogo));
 }
 
-
 void MainWindow::on_btn_Peca24_clicked()
 {
     ui->btn_Peca24->hide();
@@ -204,7 +168,6 @@ void MainWindow::on_btn_Peca24_clicked()
     ui->statusbar->showMessage("Jogador: " + QString::number(_jogador) + " Peça: " + QString::number(_pecas_jogo));
 }
 
-
 void MainWindow::on_btn_Peca25_clicked()
 {
     ui->btn_Peca25->hide();
@@ -214,7 +177,6 @@ void MainWindow::on_btn_Peca25_clicked()
     libera_tabuleiro();
     ui->statusbar->showMessage("Jogador: " + QString::number(_jogador) + " Peça: " + QString::number(_pecas_jogo));
 }
-
 
 void MainWindow::on_btn_Peca26_clicked()
 {
