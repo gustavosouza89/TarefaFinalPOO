@@ -8,7 +8,7 @@ Professor: [@profmarcondes](https://github.com/profmarcondes)
 Um jogo divertido e inteligente, onde quem tiver maior capacidade de observação e raciocínio vence.
 
 <b>Como jogar:</b><br>
-O jogo começa com 2 jogadores escolhendo seus Hashtoys – azuis ou vermelhos – sendo 3 pequenos, 3 médios e 3 grandes para cada um. A mecânica do jogo é a mesma do tradicional JOGO DA VELHA: cada jogador precisa enfileirar 3 Hashtoys da mesma cor e impedir que o adversário faça o mesmo. Um de cada vez, os jogadores escolhem um Hashtoys da sua cor e posiciona-o no tabuleiro, seguindo a sua própria estratégia de jogo. O detalhe é que um Hashtoy maior pode encobrir um Hashtoy menor do adversário, ‘roubando’ sua posição no tabuleiro. Desse modo, o jogador tem que fazer sua própria ‘trinca’ e impedir – por meio de movimentos estratégicos ou encobrindo os Hashtoys mais vulneráveis – que o adversário também faça a sua ‘trinca’.
+O jogo começa com 2 jogadores escolhendo seus Hashtoys – azuis ou vermelhos – sendo 2 pequenos, 2 médios e 2 grandes para cada um. A mecânica do jogo é a mesma do tradicional JOGO DA VELHA: cada jogador precisa enfileirar 3 Hashtoys da mesma cor e impedir que o adversário faça o mesmo. Um de cada vez, os jogadores escolhem um Hashtoys da sua cor e posiciona-o no tabuleiro, seguindo a sua própria estratégia de jogo. O detalhe é que um Hashtoy maior pode encobrir um Hashtoy menor do adversário, ‘roubando’ sua posição no tabuleiro. Desse modo, o jogador tem que fazer sua própria ‘trinca’ e impedir – por meio de movimentos estratégicos ou encobrindo os Hashtoys mais vulneráveis – que o adversário também faça a sua ‘trinca’.
 
 <b>Principais regras:</b><br>
 
