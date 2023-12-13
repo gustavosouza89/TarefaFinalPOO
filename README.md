@@ -20,3 +20,12 @@ O jogo começa com 2 jogadores escolhendo seus Hashtoys – azuis ou vermelhos �
 
 <b>Número de Jogadores:</b><br>
 2 jogadores
+
+Início do Jogo:
+
+![image](https://github.com/gustavosouza89/TarefaFinalPOO/assets/17871532/e25c27c2-d4af-4c95-8398-65e6e0d00b70)
+
+
+Fim do jogo:
+
+![image](https://github.com/gustavosouza89/TarefaFinalPOO/assets/17871532/b02b2f29-4f22-4936-9f23-9680541dfd49)
