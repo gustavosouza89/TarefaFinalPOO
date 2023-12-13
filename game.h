@@ -13,7 +13,7 @@ public:
     void inicia_Game(Ui::MainWindow *);
     void novo_jogo();
     void peca_clicada(int, int);
-    void tab_clicado(int, int, int);
+    void tab_clicado(int, int, int);    
 private:
     Tabuleiro _tab;
     Jogador _player01, _player02;

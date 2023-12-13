@@ -16,11 +16,10 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
-/*
-void MainWindow::novo_jogo()
-{
+
+void MainWindow::on_btn_NovoJogo_clicked(){
     _game.novo_jogo();
-}*/
+}
 
 void MainWindow::on_btn_Peca11_clicked()
 {

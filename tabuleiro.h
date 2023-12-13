@@ -19,6 +19,8 @@ public:
     void ativa_label();
     void desativa_label();
     void atualiza_Tabuleiro(int, int, int);
+    bool valida_jogada(int, int, int);
+    bool valida_vencedor();
 };
 
 #endif // TABULEIRO_H

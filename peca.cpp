@@ -3,9 +3,6 @@
 Peca::Peca(){}
 
 
-Peca::~Peca(){
-
-}
 /*
  * int tipo =   0 (tabuleiro)
  *              1 (jogador 1)
@@ -17,10 +14,13 @@ Peca::~Peca(){
 
 void Peca::inicia_peca(QPushButton * bt, int tipo, int tamanho){
     peca_button = bt;
-    peca_button->setDisabled(true);
+    peca_button->show();
+    _jogador = 0;
+    _tamanho = 0;
+    peca_button->blockSignals(true);
     QString caminho;
     if(tipo == 0){
-        Peca::limpa_peca();
+        peca_button->setIcon(QIcon());
     }
     else {if(tipo == 1 && tamanho == 1){
         caminho = "C:/Users/gu049152/Documents/CODE/IFSC/ProjetoFinal/Imagens/Peca11.png";
@@ -45,19 +45,22 @@ void Peca::inicia_peca(QPushButton * bt, int tipo, int tamanho){
 }
 
 void Peca::habilita_peca(){
-    peca_button->setDisabled(false);
+    //peca_button->setDisabled(false);
+    peca_button->blockSignals(false);
 }
 void Peca::desabilita_peca(){
-    peca_button->setDisabled(true);
+    //peca_button->setDisabled(true);
+    peca_button->blockSignals(true);
 }
 void Peca::limpa_peca(){
-    peca_button->setIcon(QIcon());
+    //peca_button->setIcon(QIcon());
+    peca_button->hide();
 }
 
 void Peca::atualiza_peca(int tipo, int tamanho){
     QString caminho;
     if(tipo == 0){
-        Peca::limpa_peca();
+        peca_button->setIcon(QIcon());
     }
     else{ if(tipo == 1 && tamanho == 1){
         caminho = "C:/Users/gu049152/Documents/CODE/IFSC/ProjetoFinal/Imagens/Peca11.png";
@@ -79,4 +82,20 @@ void Peca::atualiza_peca(int tipo, int tamanho){
     }
     QPixmap peca_icon(caminho);
     peca_button->setIcon(peca_icon);}
+}
+
+void Peca::set_jogador(int jogador){
+    _jogador = jogador;
+}
+
+void Peca::set_tamanho(int tamanho){
+    _tamanho = tamanho;
+}
+
+int Peca::get_jogador(){
+    return _jogador;
+}
+
+int Peca::get_tamanho(){
+    return _tamanho;
 }

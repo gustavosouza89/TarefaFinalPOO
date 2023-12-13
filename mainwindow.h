@@ -19,7 +19,6 @@ public:
     ~MainWindow();
 
 private slots:
-//    void on_pushButton_clicked();
     void on_btn_Peca11_clicked();
     void on_btn_Peca13_clicked();
     void on_btn_Peca14_clicked();
@@ -40,9 +39,8 @@ private slots:
     void on_btn_Jogo23_clicked();
     void on_btn_Jogo31_clicked();
     void on_btn_Jogo32_clicked();
-    void on_btn_Jogo33_clicked();    
-/*    void on_btn_NovoJogo_clicked();
-    void novo_jogo();*/
+    void on_btn_Jogo33_clicked();
+    void on_btn_NovoJogo_clicked();
 
 private:
     Ui::MainWindow *ui;

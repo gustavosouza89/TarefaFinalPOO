@@ -50,7 +50,7 @@ void Jogador::ativa_label(){
     _label->show();
 }
 void Jogador::desativa_label(){
-    _label->clear();
+    _label->hide();
 }
 
 void Jogador::limpa_peca(int peca){
