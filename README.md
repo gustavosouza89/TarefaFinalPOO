@@ -29,3 +29,8 @@ Início do Jogo:
 Fim do jogo:
 
 ![image](https://github.com/gustavosouza89/TarefaFinalPOO/assets/17871532/b02b2f29-4f22-4936-9f23-9680541dfd49)
+
+Diagrama UML:
+![image](https://github.com/gustavosouza89/TarefaFinalPOO/assets/17871532/d2eeeb54-61c4-43e2-9442-036908a37664)
+
+
