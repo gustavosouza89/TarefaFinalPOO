@@ -48,8 +48,5 @@ private:
     int _jogador = 0;
     int _pecas_jogo = 0;
     int _tab_posicao = 0;
-    int _tabuleiro[3][3] = {{0,0,0},{0,0,0},{0,0,0}};
-    int pecas_jogodor1[3] = {11,12,13};
-    int pecas_jogodor2[3] = {21,22,23};
 };
 #endif // MAINWINDOW_H
